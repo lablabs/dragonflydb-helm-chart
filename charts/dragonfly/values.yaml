@@ -47,6 +47,9 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
+# -- Set hostNetwork for pod
+hostNetwork: false
+
 service:
   # -- Service type to provision. Can be NodePort, ClusterIP or LoadBalancer
   type: ClusterIP
@@ -207,3 +210,6 @@ tolerations: []
 
 # -- Affinity for pod assignment
 affinity: {}
+
+# -- Topology Spread Constraints for pod assignment
+topologySpreadConstraints: []
