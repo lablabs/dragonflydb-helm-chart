@@ -15,4 +15,24 @@ entries:
     urls:
     - https://github.com/lablabs/helm-chart-template/releases/download/chart-name-0.1.0/chart-name-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-07T12:22:50.352654022Z"
+  dragonfly:
+  - apiVersion: v2
+    appVersion: v1.20.1
+    created: "2024-07-17T10:00:11.231871419Z"
+    description: Dragonfly is a modern in-memory datastore, fully compatible with
+      Redis and Memcached APIs.
+    digest: 014d374ec818a6fcfeb39cc6d03bc0003117c38c5997c288daee6b4e7720e6d2
+    home: https://dragonflydb.io/
+    keywords:
+    - database
+    - keyvalue
+    - cache
+    kubeVersion: '>=1.23.0-0'
+    name: dragonfly
+    sources:
+    - https://github.com/dragonflydb/dragonfly
+    type: application
+    urls:
+    - https://github.com/lablabs/dragonflydb-helm-chart/releases/download/dragonfly-v1.20.1/dragonfly-v1.20.1.tgz
+    version: v1.20.1
+generated: "2024-07-17T10:00:11.231905573Z"
