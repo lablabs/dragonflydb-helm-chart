@@ -48,6 +48,11 @@ Selector labels
 {{- define "dragonfly.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "dragonfly.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+{{- range $key, $value := .Values.additionalLabels }}
+{{ $key }}: {{ $value }}
+{{- end }}
+{{- end }}
+{{/*
 {{- end }}
 
 {{/*

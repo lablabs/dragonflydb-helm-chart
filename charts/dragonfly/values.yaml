@@ -213,3 +213,5 @@ affinity: {}
 
 # -- Topology Spread Constraints for pod assignment
 topologySpreadConstraints: []
+
+additionalLabels: {}
