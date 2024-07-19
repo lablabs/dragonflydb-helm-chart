@@ -55,6 +55,8 @@ service:
   type: ClusterIP
   # -- Load balancer static ip to use when service type is set to LoadBalancer
   loadBalancerIP: ""
+  # -- Cluster IP address to assign to the service. Leave empty to auto-allocate
+  clusterIP: ""
   # -- Dragonfly service port
   port: 6379
   # -- Extra annotations for the service
