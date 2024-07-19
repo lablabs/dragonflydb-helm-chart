@@ -18,6 +18,25 @@ entries:
   dragonfly:
   - apiVersion: v2
     appVersion: v1.20.1
+    created: "2024-07-19T12:30:58.986878447Z"
+    description: Dragonfly is a modern in-memory datastore, fully compatible with
+      Redis and Memcached APIs.
+    digest: 32a396af59e23fcd4602f8e8f472ceadd8df858d21a0a2e7bc12c2ed569a3da5
+    home: https://dragonflydb.io/
+    keywords:
+    - database
+    - keyvalue
+    - cache
+    kubeVersion: '>=1.23.0-0'
+    name: dragonfly
+    sources:
+    - https://github.com/dragonflydb/dragonfly
+    type: application
+    urls:
+    - https://github.com/lablabs/dragonflydb-helm-chart/releases/download/dragonfly-v1.20.4/dragonfly-v1.20.4.tgz
+    version: v1.20.4
+  - apiVersion: v2
+    appVersion: v1.20.1
     created: "2024-07-19T12:11:52.959888017Z"
     description: Dragonfly is a modern in-memory datastore, fully compatible with
       Redis and Memcached APIs.
@@ -73,4 +92,4 @@ entries:
     urls:
     - https://github.com/lablabs/dragonflydb-helm-chart/releases/download/dragonfly-v1.20.1/dragonfly-v1.20.1.tgz
     version: v1.20.1
-generated: "2024-07-19T12:11:52.959903166Z"
+generated: "2024-07-19T12:30:58.986895589Z"
